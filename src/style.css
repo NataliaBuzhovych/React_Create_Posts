@@ -1,0 +1,71 @@
+
+
+.post {
+  margin: 20px auto;
+  border-radius: 20px;
+  width: 780px;
+  height: 580px;
+  background-color: #243447;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  height: 60px;
+  width: 337px;
+}
+
+.icon {
+background-color: #ffc70045;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 31px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 17px;
+  color: #c8ccd1;
+}
+
+.nickname,
+.date {
+  font-size: 12px;
+  color: #666a6f;
+}
+
+.content {
+  height: 80%;
+  margin: -20px 0 0 65px;
+}
+
+.content_text {
+  color: #c8ccd1;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.content_image {
+  max-height: 85%;
+  max-width: 32%;
+  border-radius: 10px;
+}
+
+.footer {
+  display: flex;
+  width: 575px;
+  justify-content: space-between;
+  margin: 10px auto;
+  color: #c8ccd1;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
