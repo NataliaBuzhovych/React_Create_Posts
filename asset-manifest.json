@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Cursor_ADV_React_Poata/static/css/main.f6bccc40.css",
+    "main.js": "/Cursor_ADV_React_Poata/static/js/main.5f3a6357.js",
+    "static/js/787.4bb0afd8.chunk.js": "/Cursor_ADV_React_Poata/static/js/787.4bb0afd8.chunk.js",
+    "static/media/3.jpg": "/Cursor_ADV_React_Poata/static/media/3.5bbbf8c77e0116db64d2.jpg",
+    "static/media/1.jpg": "/Cursor_ADV_React_Poata/static/media/1.90961bbaad20d96e94d0.jpg",
+    "static/media/2.jpg": "/Cursor_ADV_React_Poata/static/media/2.6a2d9fa51894fb2d189a.jpg",
+    "static/media/4.jpg": "/Cursor_ADV_React_Poata/static/media/4.dad884ff0e5362974948.jpg",
+    "index.html": "/Cursor_ADV_React_Poata/index.html",
+    "main.f6bccc40.css.map": "/Cursor_ADV_React_Poata/static/css/main.f6bccc40.css.map",
+    "main.5f3a6357.js.map": "/Cursor_ADV_React_Poata/static/js/main.5f3a6357.js.map",
+    "787.4bb0afd8.chunk.js.map": "/Cursor_ADV_React_Poata/static/js/787.4bb0afd8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6bccc40.css",
+    "static/js/main.5f3a6357.js"
+  ]
+}
