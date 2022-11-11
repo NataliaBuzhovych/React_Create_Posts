@@ -1,7 +1,6 @@
 import { Flex, Box } from "@chakra-ui/react";
 import { useSelector } from "react-redux";
 import CreatePost from "./components/CreatePost";
-
 import ItemPost from "./components/ItemPost";
 
 function App() {
