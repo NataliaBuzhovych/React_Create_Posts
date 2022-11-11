@@ -2,7 +2,7 @@ import { Flex, Button, Input, Box, Image } from "@chakra-ui/react";
 import { useState } from "react";
 import "../style.css";
 
-export default function CreatPost(props) {
+export default function ItemPost(props) {
   let today = new Date().toLocaleDateString();
   const { name, text, img, like } = props;
 

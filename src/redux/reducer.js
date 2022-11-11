@@ -9,25 +9,25 @@ export const POSTS = [
     name: "Kate",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     img: photo1,
-    like: 20,
+    like: Math.floor(Math.random() * 100),
   },
   {
     name: "Andri",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     img: photo2,
-    like: 10,
+    like: Math.floor(Math.random() * 100),
   },
   {
     name: "Nata",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     img: photo3,
-    like: 40,
+    like: Math.floor(Math.random() * 100),
   },
   {
     name: "Roma",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     img: photo4,
-    like: 30,
+    like: Math.floor(Math.random() * 100),
   },
 ];
 
@@ -61,7 +61,12 @@ const reducer = (state = initiState, action) => {
     }
     case ADD_POST: {
       let { text, name, img, like } = state;
-      let newPost = { text, name, img, like };
+      let newPost = {
+        text,
+        name,
+        img,
+        like,
+      };
       return {
         ...state,
         posts: [newPost, ...state.posts],
