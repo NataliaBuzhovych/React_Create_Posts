@@ -67,6 +67,7 @@ const reducer = (state = initiState, action) => {
         img,
         like,
       };
+
       return {
         ...state,
         posts: [newPost, ...state.posts],
